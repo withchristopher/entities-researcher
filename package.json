@@ -4,9 +4,8 @@
   "description": "Entity researcher",
   "homepage": "https://withchristopher.github.io/entities-researcher/",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "webpack": "webpack",
-    "start": "webpack serve",
     "start:dev": "react-scrips start",
     "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
