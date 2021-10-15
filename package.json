@@ -2,7 +2,7 @@
   "name": "entity-researcher",
   "version": "1.0.0",
   "description": "Entity researcher",
-  "homepage": "https://github.com/withchristopher/hadeda-ai#readme",
+  "homepage": "https://withchristopher.github.io/entities-researcher/",
   "main": "index.js",
   "scripts": {
     "webpack": "webpack",
