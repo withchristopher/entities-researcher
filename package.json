@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Entity researcher",
   "homepage": "https://withchristopher.github.io/entities-researcher/",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "webpack": "webpack",
     "start": "react-scripts start",
