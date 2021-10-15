@@ -4,12 +4,14 @@
   "description": "Entity researcher",
   "homepage": "https://withchristopher.github.io/entities-researcher/",
   "main": "index.js",
-  "private": true,
   "scripts": {
+    "webpack": "webpack",
+    "start": "react-scripts start",
     "start:dev": "react-scrips start",
-    "build": "react-scripts build",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
+    "serve": "static docs",
     "deploy": "gh-pages -d build"
   },
   "author": "Chris Maxwell",
@@ -45,5 +47,17 @@
   },
   "bugs": {
     "url": "https://github.com/withchristopher/hadeda-ai/issues"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
